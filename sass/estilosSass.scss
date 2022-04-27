@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* variables */
+$color-negro : black;
+$fuente-principal: verdana;
+$fuente-titulo: helvetica;
+/* imports */
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";

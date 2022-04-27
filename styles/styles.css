@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/* variables */
+/* imports */
+/* estilos del header */
+header {
+  background-color: aqua; }
+  header h1 {
+    text-align: center;
+    font-family: helvetica; }
+  header nav {
+    width: 50%;
+    margin-right: 20px; }
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; }
+  header li {
+    border: 2px black solid;
+    display: flex;
+    justify-content: space-between; }
+
+main {
+  background-color: black;
+  color: white; }
+  main h2 {
+    text-align: center;
+    color: yellow;
+    font-family: verdana; }
+  main p {
+    font-family: verdana; }
+
+footer {
+  background-color: bisque;
+  color: blue; }

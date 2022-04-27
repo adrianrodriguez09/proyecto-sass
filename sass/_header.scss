@@ -1,0 +1,22 @@
+   /* estilos del header */
+   header{
+       background-color: aqua;
+       h1{
+           text-align: center;
+           font-family: $fuente-titulo;
+       }
+       nav{
+           width: 50%;
+           margin-right: 20px;
+       }
+       ul{
+           list-style: none;
+           display: flex;
+           justify-content: space-between;
+       }
+       li{
+           border: 2px black solid;
+           display: flex;
+           justify-content: space-between;
+       }
+   }
